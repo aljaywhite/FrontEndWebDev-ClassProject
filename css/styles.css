@@ -129,6 +129,13 @@ img {
   padding: 40px 20px;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
 
 /* ==========================================================================
    HEADER & HERO
@@ -166,8 +173,7 @@ nav::after {
 }
 
 
-nav ul,
-footer ul {
+nav ul {
   list-style: none;
   text-align: center;
   margin: 0;
@@ -226,7 +232,7 @@ nav a:hover {
 .group { zoom:1; /* For IE 6/7 */ }
 
 .span_1_of_2 {
-  width: 100%;
+  width: 48.2%;
 }
 .span_2_of_2{
   width: 100%;
@@ -378,19 +384,7 @@ input.button:hover {
   color: #871719;
 }
 
-/* ==========================================================================
-  Footer
-  ========================================================================== */
-
 footer {
-  background-color: #333333;
-  color: #F2F2F2;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
+    background-color: #333333;
+    color: #F2F2F2;
 }

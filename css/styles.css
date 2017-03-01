@@ -226,7 +226,7 @@ nav a:hover {
 .group { zoom:1; /* For IE 6/7 */ }
 
 .span_1_of_2 {
-  width: 48.2%;
+  width: 100%;
 }
 .span_2_of_2{
   width: 100%;
@@ -382,9 +382,9 @@ input.button:hover {
   Footer
   ========================================================================== */
 
-  footer {
-    background-color: #333333;
-    color: #F2F2F2;
+footer {
+  background-color: #333333;
+  color: #F2F2F2;
 }
 
 .text-left {
